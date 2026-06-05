@@ -1,0 +1,15 @@
+---
+description: "Java PostgreSQL Persistence — JPA + Flyway + PostgreSQL persistence module for Maven multi-module services"
+summary: >
+  Generates a -persistence Maven module with Spring Data JPA, Flyway, PostgreSQL driver,
+  and Testcontainers test support. Consumed as a library by Java service archetypes.
+  Requires the parent pom to declare the module and the server pom to depend on it.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "java", "persistence", "postgresql", "jpa", "flyway"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
